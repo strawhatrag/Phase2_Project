@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 739488100,
+              "duration": 743239900,
               "status": "passed"
             },
             "line": 5,
@@ -24,11 +24,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-11-26T08:26:25.278Z",
+        "start_timestamp": "2021-11-26T08:41:36.948Z",
         "before": [
           {
             "result": {
-              "duration": 2705801500,
+              "duration": 1772529400,
               "status": "passed"
             },
             "match": {
@@ -40,12 +40,23 @@
         "name": "Positive Login Functionality",
         "description": "",
         "id": "product-selection;positive-login-functionality;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 859442400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Baseclass.TearDown()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 155566900,
+              "duration": 121367300,
               "status": "passed"
             },
             "line": 8,
@@ -67,7 +78,7 @@
           },
           {
             "result": {
-              "duration": 70863600,
+              "duration": 95253500,
               "status": "passed"
             },
             "line": 9,
@@ -79,7 +90,7 @@
           },
           {
             "result": {
-              "duration": 42147300,
+              "duration": 141652000,
               "status": "passed"
             },
             "line": 10,
@@ -97,7 +108,7 @@
           },
           {
             "result": {
-              "duration": 23431000,
+              "duration": 23243600,
               "status": "passed"
             },
             "line": 11,
